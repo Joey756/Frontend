@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+	border: 3px solid #f1f1f1;
+  width: 70vw;
+  /* position: absolute;
+  left: 12.5%;
+  top: 30%; */
+}
+
+.container{
+  padding: 10px;
+    /* position: relative;
+    height: 20vh; */
+}
+
+input[type = text],
+input[type = password]{
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* star */
+header{
+  background-color: #333;
+  color: white;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98vw;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  margin-right: 20px;
+}
+
+nav ul li:last-child{
+  margin-right: 0px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+/* end of star */
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  }
+  @media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+  }

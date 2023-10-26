@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li:last-child{
+    margin-right: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 2rem;
+    /* color: rgb(180, 138, 61);
+     */
+     color: white;
+    width: vw;
+    background: url('bitcoin.jpg') center/cover;
+    height: 60vh;
+}
+
+.hero .hero-text{
+    margin-top: 8rem !important;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #333; */
+    background-color: rgba(51, 51, 51, 0.7);
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    height: 35vh;
+}
+
+.feature{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
